@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="North Arbor Environmental Engineering & Consulting: ISA Certified Arborist Consulting in Michigan for Tree Preservation, Diagnosis, Treatment, Environmental Services, Regenerative Agriculture, and Sustainability.">
+    <meta name="keywords" content="Michigan arborist consultant, tree preservation Michigan, ISA certified arborist, municipal tree consulting, vegetation management Michigan, regenerative agriculture consulting, sustainability consulting Michigan">
+    <title>North Arbor Environmental Engineering & Consulting</title>
+    <style>
+        /* Enhanced bubbly/flowy style: More curves, animations, wave gradients. Blues/greens for calm innovation. */
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #F0F8FF; color: #333; line-height: 1.6; position: relative; overflow-x: hidden; }
+        /* Programmatically generated background: SVG for California cliff-like view with hills/trees */
+        body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, #87CEEB 0%, #F0F8FF 100%); z-index: -1; opacity: 0.8; }
+        body::after { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500"><path d="M0 300 Q250 200 500 300 Q750 400 1000 300 L1000 500 L0 500 Z" fill="%2390EE90"/><path d="M0 400 Q300 300 600 400 Q800 350 1000 400 L1000 500 L0 500 Z" fill="%23228B22"/><circle cx="200" cy="250" r="20" fill="%23228B22"/><line x1="200" y1="250" x2="200" y2="200" stroke="%238B4513" stroke-width="5"/><circle cx="700" cy="280" r="25" fill="%23228B22"/><line x1="700" y1="280" x2="700" y2="220" stroke="%238B4513" stroke-width="6"/></svg>'); background-size: cover; background-position: center; z-index: -2; opacity: 0.3; animation: wave 10s infinite ease-in-out; }
+        @keyframes wave { 0% { transform: translateX(0); } 50% { transform: translateX(-5%); } 100% { transform: translateX(0); } }
+        /* Bubbly animations */
+        .bubble { position: absolute; background: rgba(135,206,235,0.3); border-radius: 50%; animation: bubble-float 5s infinite; z-index: -1; }
+        .bubble:nth-child(1) { width: 50px; height: 50px; left: 10%; top: 20%; animation-duration: 6s; }
+        .bubble:nth-child(2) { width: 30px; height: 30px; left: 80%; top: 50%; animation-duration: 4s; }
+        .bubble:nth-child(3) { width: 40px; height: 40px; left: 40%; top: 70%; animation-duration: 5s; }
+        @keyframes bubble-float { 0% { transform: translateY(0); } 50% { transform: translateY(-20px); } 100% { transform: translateY(0); } }
+        header { background: linear-gradient(to bottom, #003366, #87CEEB); color: white; padding: 50px 20px; text-align: center; border-bottom-left-radius: 50px; border-bottom-right-radius: 50px; position: relative; overflow: hidden; }
+        header::before { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; background: wave-gradient; } /* Wave effect */
+        header h1 { margin: 0; font-size: 2.5em; animation: fadeIn 1s ease-in; }
+        header p { font-size: 1.2em; }
+        nav { background: linear-gradient(to right, #228B22, #90EE90); padding: 15px; text-align: center; border-radius: 30px; margin: 20px auto; max-width: 1200px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: box-shadow 0.3s; }
+        nav:hover { box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+        nav a { color: white; margin: 0 25px; text-decoration: none; font-weight: bold; transition: color 0.3s ease, transform 0.3s; }
+        nav a:hover { color: #003366; transform: scale(1.1); }
+        section { padding: 50px 20px; max-width: 1200px; margin: auto; background: rgba(255,255,255,0.9); border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: box-shadow 0.3s ease, transform 0.3s; animation: fadeIn 1s ease-in; }
+        section:hover { box-shadow: 0 6px 15px rgba(0,0,0,0.15); transform: translateY(-3px); }
+        .container { display: flex; flex-wrap: wrap; justify-content: space-around; }
+        .card { background: white; border: none; border-radius: 25px; padding: 25px; margin: 15px; flex: 1 1 350px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); transition: transform 0.3s ease; }
+        .card:hover { transform: translateY(-5px); }
+        .cta-button { background: linear-gradient(to right, #87CEEB, #003366); color: white; padding: 15px 35px; border: none; border-radius: 50px; font-size: 1.2em; cursor: pointer; margin: 20px 0; display: inline-block; text-decoration: none; transition: background 0.3s ease, box-shadow 0.3s; }
+        .cta-button:hover { background: linear-gradient(to right, #003366, #87CEEB); box-shadow: 0 4px 10px rgba(0,0,0,0.2); }
+        form { max-width: 600px; margin: auto; background: rgba(255,255,255,0.95); padding: 25px; border-radius: 25px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: box-shadow 0.3s; }
+        form:hover { box-shadow: 0 6px 15px rgba(0,0,0,0.15); }
+        input, textarea { width: 100%; padding: 12px; margin: 12px 0; border: 1px solid #ddd; border-radius: 15px; transition: border 0.3s ease, box-shadow 0.3s; }
+        input:focus, textarea:focus { border-color: #228B22; box-shadow: 0 0 5px rgba(34,139,34,0.5); }
+        button { background: linear-gradient(to right, #228B22, #90EE90); color: white; padding: 12px; border: none; border-radius: 15px; cursor: pointer; width: 100%; font-size: 1.1em; transition: background 0.3s ease, transform 0.3s; }
+        button:hover { background: linear-gradient(to right, #90EE90, #228B22); transform: scale(1.02); }
+        .experience-list { column-count: 2; list-style-type: none; padding: 0; }
+        .experience-list li { margin-bottom: 12px; }
+        footer { background: linear-gradient(to bottom, #003366, #228B22); color: white; text-align: center; padding: 25px; border-top-left-radius: 50px; border-top-right-radius: 50px; position: relative; overflow: hidden; }
+        footer::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 50px; background: wave-gradient; transform: rotate(180deg); }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        @media (max-width: 768px) { .container { flex-direction: column; } nav a { display: block; margin: 12px 0; } .experience-list { column-count: 1; } }
+        /* Image placeholders with flowy borders */
+        .section-image { width: 100%; max-width: 600px; margin: 20px auto; border-radius: 30px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .section-image:hover { transform: scale(1.05); }
+    </style>
+</head>
+<body>
+    <!-- Bubbly background elements -->
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+
+    <header>
+        <h1>North Arbor Environmental Engineering & Consulting</h1>
+        <p>Your Trusted ISA Certified Arborist Consultant Serving All of Michigan – Available 24/7 for Expert Tree Diagnosis, Treatment, and Preservation.</p>
+        <a href="#contact" class="cta-button">Book Your Consultation Now – Limited Availability!</a> <!-- Psychological: Scarcity/urgency to prompt action -->
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to North Arbor Environmental Engineering & Consulting</h2>
+        <p>As an ISA Certified Arborist with extensive experience in tree care, environmental services, and consulting, we provide comprehensive solutions for clients across Michigan. Whether you're involved in new construction, municipal projects, or preservation efforts, our expertise ensures your trees are protected, diagnosed, and treated effectively. We specialize in contractual services for municipalities and colonies requiring a certified arborist on-site, offering 24/7 availability to meet your needs promptly.</p>
+        <p>With a proven track record in sales and project management, we deliver reliable, innovative services tailored to Michigan's diverse landscapes. Contact us today at (248)941-1513 for expert consulting that saves time, reduces risks, and enhances your project's success.</p>
+        <!-- First Photo: Tall Trees by Valentin S -->
+        <img src="https://images.pexels.com/photos/589802/pexels-photo-589802.jpeg" alt="Tall Trees Landscape" class="section-image">
+        <a href="#contact" class="cta-button">Get Started – Call (248)941-1513 (24/7)</a> <!-- Psychological: Accessibility builds trust and encourages immediate contact -->
+    </section>
+    <section id="services" class="container">
+        <div class="card">
+            <h2>Our Key Services</h2>
+            <p>We offer a range of environmental services, specializing in vegetation management, hazardous waste remediation, and civil construction. We help clients with projects like wildfire debris removal, stream restoration, and managing vegetation around critical infrastructure for utilities. We provide both engineering and construction services for public and private sector clients.</p>
+            <ul>
+                <li><strong>Vegetation Management:</strong> Controls overgrowth, reduces wildfire hazards, and maintains clearance for utilities through services like pre- and post-inspections.</li>
+                <li><strong>Remediation and Cleanup:</strong> Cleans up contaminated land and water, handles hazardous waste, and removes debris following events like wildfires.</li>
+                <li><strong>Construction:</strong> Includes civil construction, site preparation, and structural demolition.</li>
+                <li><strong>Environmental Engineering:</strong> Provides technical assistance, project design, permitting, and consultation from project conception to completion.</li>
+                <li><strong>Stream and Waterway Work:</strong> Engages in stream restoration and designs natural stream channels.</li>
+                <li><strong>Tree Diagnosis and Treatment:</strong> Expert specialization in identifying and treating tree health issues, ensuring long-term vitality.</li>
+                <li><strong>Municipal Contractual Services:</strong> Available for hire on contracts requiring an ISA Certified Arborist for municipalities, colonies, new construction, preservation, and more.</li>
+                <li><strong>Regenerative Agriculture Consulting:</strong> Leveraging a bachelor's degree in regenerative agriculture and sustainability, we offer expert guidance on sustainable farming practices, soil health improvement, crop rotation, and ecosystem restoration to promote long-term land productivity and environmental health.</li>
+                <li><strong>Sustainability Consulting:</strong> Providing comprehensive sustainability strategies, including senior project-based insights on eco-friendly initiatives, resource management, and sustainable development for municipal, agricultural, and construction projects in Michigan's exploding sustainability sector.</li>
+                <li><strong>GIS and LiDAR Coming Soon:</strong> Expanding our capabilities with Geographic Information System (GIS) and Light Detection and Ranging (LiDAR) services for advanced environmental mapping, precision analysis, and data-driven decision-making. These tools will enhance our regenerative agriculture, sustainability, and tree management offerings, providing clients with high-resolution 3D terrain models, vegetation monitoring, and resource planning to optimize projects like urban forestry, land restoration, and infrastructure development. Stay tuned for launch details—contact us to learn more or pre-register interest!</li>
+            </ul>
+            <p>Serving all of Michigan with 24/7 availability – Call (248)941-1513 to discuss your project.</p>
+            <!-- Second Photo: Red Leaf Trees Near the Road by Pixabay -->
+            <img src="https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg" alt="Red Leaf Trees Near the Road" class="section-image">
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>North Arbor Environmental Engineering & Consulting is led by an ISA Certified Arborist with extensive sales experience and a proven track record as a contractual expert consultant for Fortune 500 companies. We are dedicated to providing top-tier tree care and environmental consulting services across Michigan, combining hands-on expertise with strategic insights to deliver exceptional results.</p>
+        <p>With a bachelor's degree in regenerative agriculture and sustainability, including 4 years of specialized knowledge and multiple senior projects focused on sustainable practices, we bring a passion for innovative, eco-friendly solutions. This expertise allows us to offer cutting-edge consulting in regenerative agriculture and sustainability, addressing the exploding demand in this high-potential industry while integrating seamlessly with our arborist and environmental services.</p>
+        <p>Our commitment to excellence ensures we're available 24/7 to support your needs, from urgent tree assessments to long-term municipal contracts. Trust us for reliable, professional service that prioritizes safety, sustainability, and client satisfaction.</p>
+        <!-- Image Placeholder: Replace src with your URL -->
+        <img src="https://via.placeholder.com/600x300?text=About+Us+Image+(e.g.+Sustainability+Project)" alt="Sustainability Project" class="section-image">
+        <a href="#contact" class="cta-button">Why Choose Us? Contact Today!</a> <!-- Psychological: Social proof via expertise, prompting decision-making -->
+    </section>
+    <section id="experience">
+        <h2>Extensive Experience</h2>
+        <p>With years of hands-on and leadership roles in arboriculture, environmental services, and consulting, we bring unparalleled expertise to every project.</p>
+        <h3>Field Roles</h3>
+        <ul class="experience-list">
+            <li>Aerial lift operator</li>
+            <li>Arborist</li>
+            <li>Climber</li>
+            <li>Crew lead</li>
+            <li>Foreman</li>
+            <li>Ground worker</li>
+            <li>Plant health care (PHC) specialist</li>
+            <li>Plant health care (PHC) technician</li>
+            <li>Tree care company owner</li>
+            <li>Tree trimmer</li>
+            <li>Utility vegetation management specialist</li>
+        </ul>
+        <h3>Management and Office Roles</h3>
+        <ul class="experience-list">
+            <li>Arborist sales representative</li>
+            <li>Crew supervisor</li>
+            <li>Estimator</li>
+            <li>GIS specialist (in forestry or arboriculture)</li>
+            <li>Operations manager</li>
+            <li>Project manager</li>
+            <li>System forester (utility)</li>
+            <li>Tree care company manager</li>
+            <li>Urban forestry specialist</li>
+            <li>Vegetation management project manager</li>
+        </ul>
+        <h3>Specialized and Consulting Roles</h3>
+        <ul class="experience-list">
+            <li>Consulting arborist</li>
+            <li>Instructor</li>
+            <li>Municipal arborist</li>
+            <li>Plant health consultant</li>
+            <li>Tree risk assessor</li>
+            <li>Urban forester</li>
+            <li>Utility arborist</li>
+            <li>Utility forestry manager</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us – Available 24/7</h2>
+        <p>Reach out for expert consulting services across Michigan. Call (248)941-1513 anytime, or fill out the form below to get started. Email us at info@northarboreng.com.</p>
+        <!-- Text Message Link (Updated Phone) -->
+        <a href="sms:(248)941-1513?body=Hi%2C%20I'd%20like%20to%20discuss%20a%20project." class="cta-button" style="background: linear-gradient(to right, #228B22, #90EE90); margin-bottom: 20px;">Text Us Now (Mobile Only)</a>
+        <!-- Functional Email Form: Replace 'https://formspree.io/f/xjkpaawl' with your Formspree endpoint -->
+        <form action="https://formspree.io/f/xjkpaawl" method="post"> <!-- Sign up at formspree.io and replace with your endpoint -->
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="project" placeholder="Project Type (e.g., Municipal Contract, Tree Diagnosis)" required>
+            <textarea name="message" placeholder="Message/Details" required></textarea>
+            <button type="submit">Submit Inquiry – Let's Grow Together!</button> <!-- Psychological: Positive, growth-oriented language -->
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 North Arbor Environmental Engineering & Consulting. Serving All of Michigan. Available 24/7 at (248)941-1513. Visit us at northarboreng.com | Email: info@northarboreng.com.</p>
+    </footer>
+    <script>
+        // Smooth scrolling for nav and buttons
+        document.querySelectorAll('a[href^="#"], .cta-button').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                if (!this.href.startsWith('sms:')) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
